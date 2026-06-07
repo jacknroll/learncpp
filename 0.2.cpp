@@ -37,3 +37,36 @@ so our code or program first converted into low language(or machine language lik
 each machine instruction is composed of 0 1
 each 0 or 1 is called bits and 8 bits form 1 byte
 */
+
+
+///////////////////ASSEMBLY LANGUAGE////////////////////////
+//more human friendly machine language
+//just intermediate stage of compiling
+//programming languge--assembly---machine language
+//mov al, 0x61. mov al, 0x61 copies hexadecimal number 0x61 into the al CPU register.
+//assembly language translated to machine language by assembler
+
+
+
+///////////////////LOW LEVEL LANGUAGE/////////////////
+//LOW level language are written for specific machine and understood by it only
+//not portable
+//low-level languages is that they are fast. 
+
+
+//////////////////HIGH LEVEL LANGUAGE/////////////////////
+//to overcome ll language toughness we have developer high level lang
+//high level convert to low level to run
+// two primary ways this is done: compiling and interpreting.
+
+///COMPILER
+//compiler is a program (or collection of programs) that reads the source code of one language
+// (usually a high-level language) and translates it into another language (usually a low-level language). 
+//For example, a C++ compiler translates C++ source code into machine code.
+
+
+//INTERPRETER
+// interpreter is a program that directly executes the instructions in the source code without requiring them to be compiled first. 
+//executed code by code 
+
+
